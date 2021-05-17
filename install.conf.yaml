@@ -12,3 +12,16 @@
     ~/.xinitrc: xinitrc
 
 
+- clean: ['~']
+
+- link:
+
+
+- clean: ['~']
+
+- link:
+    ~/.config/alacritty/alacritty.yml:
+        path: config/alacritty/alacritty.yml
+        create: true
+
+
