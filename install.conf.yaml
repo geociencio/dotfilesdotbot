@@ -25,3 +25,9 @@
         create: true
 
 
+- clean: ['~']
+
+- link:
+    ~/.bash_aliases: bash_aliases
+
+

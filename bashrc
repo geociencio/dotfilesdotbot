@@ -76,6 +76,7 @@ if ${use_color} ; then
 	fi
 
 	alias ls='ls --color=auto'
+    alias dir='dir --color=auto'
 	alias grep='grep --colour=auto'
 	alias egrep='egrep --colour=auto'
 	alias fgrep='fgrep --colour=auto'
@@ -95,6 +96,10 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
 xhost +local:root > /dev/null 2>&1
 
