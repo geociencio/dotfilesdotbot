@@ -1,0 +1,54 @@
+Xcursor.theme: Adwaita
+URxvt*buffered: true
+URxvt*underlineColor: yellow
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+URxvt*font: xft:DejaVu Sans Mono for Powerline:size=12,xft:SimHei:size=12
+URxvt*letterSpace: -2
+! scrollbar style - rxvt (default),
+! plain (compact), NeXT, or xtermn
+URxvt.scrollstyle: plain
+URxvt.scrollBar_right: True
+URxvt.title: JMBA
+URxvt.geometry: 85x40
+!TABS
+URxvt.perl-ext-common : default,tabbed,matcher
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg:    3
+URxvt.tabbed.tab-bg:    0
+
+URxvt*saveLines: 5000
+
+! solarized theme
+! foreground/background
+! black
+URxvt.color0  : #073642
+URxvt.color8  : #002b36
+! red
+URxvt.color1  : #dc322f
+URxvt.color9  : #cb4b16
+! green
+URxvt.color2  : #859900
+URxvt.color10 : #586e75
+! yellow
+URxvt.color3  : #b58900
+URxvt.color11 : #657b83
+! blue
+URxvt.color4  : #268bd2
+URxvt.color12 : #839496
+! magenta
+URxvt.color5  : #d33682
+URxvt.color13 : #6c71c4
+! cyan
+URxvt.color6  : #2aa198
+URxvt.color14 : #93a1a1
+! white
+URxvt.color7  : #eee8d5
+URxvt.color15 : #fdf6e3
+
+URxvt*background: [90]#000000
+URxvt*depth: 32
+URxvt*foreground: #FFFFFF
+
+
