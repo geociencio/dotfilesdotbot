@@ -13,7 +13,9 @@ runtime! arch.vim		" Esta linea no deveria ser borrada ya que esto
 "python3 powerline_setup()
 "python3 del powerline_setup
 "set  rtp+=/usr/lib/python3.9/site-packages/powerline/bindings/vim/
-
+				
+				" Verificar si plug.vim se encuentra en el equipo de lo 
+				" de lo contrario instalarlo
 if empty(glob('~/.vim/autoload/plug.vim'))
     silent !curl -flo ~/.vim/autoload/plug.vim --create-dirs
         \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -24,7 +26,7 @@ endif
 set ls=2
 set t_Co=256
 				" Los complementos se descargaran al directorio
-			       	" especificado
+			    " especificado
 call plug#begin('~/.vim/plugged')
 				" Declarar lista de complementos
 Plug 'powerline/powerline'
