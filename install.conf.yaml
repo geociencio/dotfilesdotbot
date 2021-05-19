@@ -31,3 +31,9 @@
     ~/.bash_aliases: bash_aliases
 
 
+- clean: ['~']
+
+- link:
+    ~/.dir_colors: dir_colors
+
+
