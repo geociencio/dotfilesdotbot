@@ -29,6 +29,7 @@ if (( UID != 0 )); then
     alias update='sudo pacman -Su'
     alias sysup='sudo pacman -Syu'
     alias netctl='sudo netctl'
+    alias suin='sudo pacman -S'
 fi
 
 ## ls
