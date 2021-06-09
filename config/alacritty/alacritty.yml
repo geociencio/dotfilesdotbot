@@ -7,7 +7,7 @@
 # License:    MIT
 # References:
 #   https://github.com/alacritty/alacritty
-background_opacity: 0.98
+background_opacity: 1
 
 env:
   TERM: xterm-256color

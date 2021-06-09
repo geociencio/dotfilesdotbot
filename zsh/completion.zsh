@@ -1,19 +1,9 @@
-  # ____ ___  __  __ ____  _     _____ _____ ___ ___  _   _ 
-#  / ___/ _ \|  \/  |  _ \| |   | ____|_   _|_ _/ _ \| \ | |
-# | |  | | | | |\/| | |_) | |   |  _|   | |  | | | | |  \| |
-# | |__| |_| | |  | |  __/| |___| |___  | |  | | |_| | |\  |
-#  \____\___/|_|  |_|_|   |_____|_____| |_| |___\___/|_| \_|
- #
-
 # +---------+
 # | General |
 # +---------+
 
 # zstyle pattern for the completion
 # :completion:<function>:<completer>:<command>:<argument>:<tag>
-
-# Load more completions
-fpath=($DOTFILES/zsh/plugins/zsh-completions/src $fpath)
 
 # Should be called before compinit
 zmodload zsh/complist
@@ -31,7 +21,7 @@ bindkey -M menuselect '^xh' accept-and-hold                # Hold
 bindkey -M menuselect '^xn' accept-and-infer-next-history  # Next
 bindkey -M menuselect '^xu' undo                           # Undo
 
-autoload -U compinit; compinit
+autoload -U compinit && compinit
 _comp_options+=(globdots) # With hidden files
 
 # Only work with the Zsh function vman
