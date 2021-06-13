@@ -26,6 +26,13 @@ Mencionar que solo hay que oprimir enter en la primer pregunta
 ![im2](_images/im5.png)
 
 
+## Agregar archivos manualmente
+
+Con la siguiente instrucción agregamos archivos sin dotbot (por ejemplo al archivo zshrc)
+```bash
+ln -s /home/username/.dotfiles/zshrc /home/username/.zshrc
+```
+
 [dotbot-repo]: https://github.com/anishathalye/dotbot
 [scrpt-repo]: (https://github.com/Vaelatern/init-dotfiles)
 [git-repo]: https://git-scm.com/

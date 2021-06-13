@@ -20,7 +20,6 @@
 : 1623203730:0;sudo pacman -S fzf
 : 1623204573:0;vim 
 : 1623206821:0;vim
-: 1623206843:0;clear
 : 1623270910:0;fzf
 : 1623271051:0;vim ~/.dotfiles/**
 : 1623271226:0;git add .
@@ -33,7 +32,16 @@
 : 1623586594:0;LS
 : 1623599638:0;pwd
 : 1623602031:0;vim .zshrc
-: 1623602161:0;cd .dotfiles
-: 1623602163:0;ls
 : 1623602171:0;git status
-: 1623602346:0;exit
+: 1623603358:0;git push -u origin master
+: 1623603487:0;vim zshrc
+: 1623604007:0;vim init_dotfiles.sh
+: 1623604127:0;bash init_dotfiles.sh
+: 1623604168:0;exit
+: 1623604923:0;clear
+: 1623604934:0;cd .dotfiles
+: 1623604948:0;ls
+: 1623605176:0;vim README.md
+: 1623605716:0;git push -u origin master
+: 1623605801:0;git status
+: 1623605812:0;git add .

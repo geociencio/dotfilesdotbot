@@ -37,3 +37,15 @@
     ~/.dir_colors: dir_colors
 
 
+- clean: ['~']
+
+- link:
+    ~/.zshrc: zshrc
+
+
+- clean: ['~']
+
+- link:
+    ~/.zshrc: zshrc
+
+
